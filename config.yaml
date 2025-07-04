@@ -1,7 +1,8 @@
-baseURL: "http://example.org/"
+baseURL: "http://manbudiman.github.io/"
 languageCode: "en-us"
 title: "Pustaka Budiman"
 theme: "hugo-xmin"
+publishDir: docs
 
 googleAnalytics: ""
 disqusShortname: ""
