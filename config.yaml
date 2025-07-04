@@ -1,4 +1,4 @@
-baseURL: "http://manbudiman.github.io/"
+baseURL: "https://manbudiman.github.io/"
 languageCode: "en-us"
 title: "Pustaka Budiman"
 theme: "hugo-xmin"
