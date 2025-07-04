@@ -2,7 +2,7 @@ baseURL: "http://manbudiman.github.io/"
 languageCode: "en-us"
 title: "Pustaka Budiman"
 theme: "hugo-xmin"
-publishDir: docs
+publishDir: "docs"
 
 googleAnalytics: ""
 disqusShortname: ""
