@@ -24,18 +24,20 @@ menu:
     - name: Files
       url: "files/"
       weight: 3
-    - name: Categories
-      url: "categories/"
+    - name: HIS
+      url: "HIS/"
       weight: 4
-    - name: Tags
-      url: "tags/"
+    - name: RPS
+      url: "RPS/"
       weight: 5
-    - name: Subscribe
-      url: "index.xml"
+    - name: Bank Soal
+      url: "banksoal/"
+      weight: 6
 
 params:
-  description: "A website built through Hugo and blogdown."
-  footer: "&copy; [Yihui Xie](https://yihui.org) 2017 -- {Year} | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
+  description: "Kumpulan kuliah dan Catatan belajar kedokteran."
+  footer: "&copy; 2025 ManBudiman | [Github](https://github.com/ManBudiman) | [Twitter](https://twitter.com/manbudiman_)" 
+  custom_css: ["css/custom.css"]
 
 markup:
   highlight:
@@ -52,3 +54,10 @@ markup:
             - ["$$", "$$"]
           inline:
             - ["\\(", "\\)"]
+            
+disableKinds:
+  - taxonomy       # Blocks /tags/ pages
+  
+taxonomies:
+  tag: none        # Disables tags globally
+  category: none   # Disables categories globally

@@ -1,0 +1,4 @@
+.menu a, .article-meta {
+    background: none !important; /* Remove gray box */
+    padding: 5px 0 !important;  /* Keep spacing but remove bg */
+}

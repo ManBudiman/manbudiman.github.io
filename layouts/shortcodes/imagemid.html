@@ -1,0 +1,26 @@
+<div style="
+  text-align: center;
+  margin: {{ .Get "margin" | default "2rem 0" }};
+">
+  <a href="{{ .Get "src" }}" target="_blank" style="text-decoration: none;">
+    <img
+      src="{{ .Get "src" }}"
+      alt="{{ .Get "alt" }}"
+      style="
+        width: {{ .Get "width" | default "100%" }};
+        height: auto;
+        border-radius: {{ .Get "radius" | default "6px" }};
+        max-width: 100%;
+      "
+    />
+  </a>
+  {{ if .Get "caption" }}
+  <p style="
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 0.5rem;
+  ">
+    {{ .Get "caption" }}
+  </p>
+  {{ end }}
+</div>
